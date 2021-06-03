@@ -1,0 +1,12 @@
+.intro {
+  margin: 30px;
+  text-align: center;
+}
+.box{width: 100%; border:1px solid #393939;font-size: 28rpx;}
+.swiperbox{width: 100%;}
+.swiperbox image{width:100%; }
+.sybuttn{width: 70%;overflow: hidden; display: block;margin-left: 15%;margin-top: 100rpx;}
+.sybuttn-btn{width: 120rpx; height: 120rpx;background: #367cf4;color: #ffffff;text-align: center;font-size: 28rpx; line-height:120rpx;border-radius: 18rpx; float: left;margin-right:75rpx;}
+.sybuttn .sybuttn-btn:last-child{margin-right: 0px;}
+.box{width: 100%;}
+.dlid{width: 120rpx; height: 120rpx;background: #367cf4;color: #fff;line-height: 120rpx;}

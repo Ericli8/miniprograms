@@ -1,0 +1,25 @@
+<view class="box">
+  <swiper class="swiperbox" circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}"
+    interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image mode="widthFix" src="{{item}}" class="slide-image" width="100%" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class="sybuttn">
+    <navigator url="/pages/zp/index" hover-class="navigator-hover">跳转到新页面</navigator>
+    <view class="sybuttn-btn">求职招聘</view>
+    <view class="sybuttn-btn">培训报名</view>
+    <view class="sybuttn-btn">快速办证</view>
+  </view>
+
+  <view class="tab-bar">
+    <block>首页</block>
+    <view class="dlid">
+      <button  bindgetphonenumber="getPhoneNumber" open-type="getPhoneNumber"> 个人中心 </button>
+    </view>
+  </view>
+
+
+</view>
